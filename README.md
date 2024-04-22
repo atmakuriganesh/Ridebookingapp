@@ -1,79 +1,61 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Ride Booking
 
-# Getting Started
+- In today’s world transportation is an important aspect of people moving from one place to other. Third
+party apps like Uber, Lyft are the major modes of car booking transportation used by people. The main
+problem arises here, people cannot able to choose type of driver they need. That might depend on
+race, ethnicity, rating and their experience. Also, the price will be determined by the app itself. People
+has no flexibility to book the ride in their interval of price. This problem will be addressed by the RIDES
+BOOKING APP, where people can choose robust drivers from the available list of drivers based on
+multiple categories. They can chat with the driver instantly and they can able to bargain the price.
+Based on their need, people can book their ride for the current time or they can prebook the ride.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## PROBLEM DOMAIN:
+tundi
+- The problem domain arises involves addressing multiple problems like choosing the correct
+technology. However, this project will be developed using React Native. Other challenges like verifying
+rider’s details like name, email, contact number and details related to routes they particularly
+interested in. Also, the user experience is an important aspect to be considered. The ride booking
+becomes more complicate when ride requests with multiple preferences and taking consideration of
+driver preferences too. This algorithmic problem is crucial for the platform to function as efficiently as
+feasible overall and to improve user satisfaction.
 
-## Step 1: Start the Metro Server
+## PROJECT OBJECTIVE:
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+- The project objective is to develop a ride booking app with good user interface and facilitating the
+flexibility to choose drivers for passengers and passengers for the drivers. Other important objective
+is to develop a chat application with driver to discuss about the ride details and price details. People
+has the option to fix the price by talking to the driver. Integrating these features gives continuous
+improvement to the modern transportation needs proving a seamless experience to the users.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+## EXPECTED RESULT:
 
-```bash
-# using npm
-npm start
+- This project aims to provide users the ability to choose the drivers from the list of available drivers
+based on multiple factors. The overall expected outcome is not only providing the user-interface but
+designing with well-rounded booking of rides that will meet the people requirement of booking the
+ride earlier or at the same time
 
-# OR using Yarn
-yarn start
-```
+## App Description
 
-## Step 2: Start your Application
+- The App.tsx file sets up navigation using the react-navigation library. It defines a stack navigator with different screens such as Home, Login, SignUp, RideDetails, ConfirmBooking, and MyBookings. Each screen is associated with a component responsible for rendering its content.
+- The project includes several screen components such as HomeScreen, LoginScreen, SignUpScreen, RideDetailsScreen, ConfirmBookingScreen, and MyBookings. These components define the UI and functionality for various parts of the application, including displaying available rides, user authentication, booking confirmation, and viewing user bookings.
+-  Data Handling and Styling: The screens utilize dummy data for demonstration purposes. The components use React Native's ScrollView, View, Text, Button, and ImageBackground components to structure and style the user interface. Additionally, styles are defined using the StyleSheet.create method to ensure consistent and visually appealing UI across different screens.
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+## Screenshots
 
-### For Android
+1. Homescreen
+![Home](ss1.jpg)
 
-```bash
-# using npm
-npm run android
+2. Signup
+![Home](ss2.jpg)
 
-# OR using Yarn
-yarn android
-```
+3. Login
+![Home](ss3.jpg)
 
-### For iOS
+4. RideDetails
+![Home](ss4.jpg)
 
-```bash
-# using npm
-npm run ios
+5. RideConfirmation
+![Home](ss5.jpg)
 
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+6. BookingConfirmation
+![Home](ss6.jpg)
