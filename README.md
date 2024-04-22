@@ -1,1 +1,3 @@
-# Ridebookingapp
+# RidebookingApp
+
+##### In today’s world transportation is an important aspect of people moving from one place to other. Third party apps like Uber, Lyft are the major modes of car booking transportation used by people. The main problem arises here, people cannot able to choose type of driver they need. That might depend onrace, ethnicity, rating and their experience. Also, the price will be determined by the app itself. People has no flexibility to book the ride in their interval of price. This problem will be addressed by the RIDES BOOKING APP, where people can choose robust drivers from the available list of drivers based on multiple categories. They can chat with the driver instantly and they can able to bargain the price. Based on their need, people can book their ride for the current time or they can prebook the ride.
