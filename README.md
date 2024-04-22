@@ -10,7 +10,7 @@ multiple categories. They can chat with the driver instantly and they can able t
 Based on their need, people can book their ride for the current time or they can prebook the ride.
 
 ## PROBLEM DOMAIN:
-tundi
+
 - The problem domain arises involves addressing multiple problems like choosing the correct
 technology. However, this project will be developed using React Native. Other challenges like verifying
 rider’s details like name, email, contact number and details related to routes they particularly
